@@ -5,7 +5,6 @@ int additionner(int x, int y)
 	return x + y;
 }
 
-
 TEST(UnitTest, additionner1)
 {
 	int x = additionner(2, -2);
