@@ -1,13 +1,10 @@
 #include "gtest/gtest.h"
 
-int additionner(int x, int y){
+int additionner(int x, int y)
+{
+	new *int z;
 	return x + y;
 }
-
-
-
-
-
 
 TEST(UnitTest, additionner1)
 {
