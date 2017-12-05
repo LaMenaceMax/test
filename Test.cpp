@@ -2,13 +2,14 @@
 
 int additionner(int x, int y)
 {
-	new *int z;
 	return x + y;
+	
+	
 }
 
 TEST(UnitTest, additionner1)
 {
-	int x = additionner(2, -2);
+	int x = additionner(2, -2)
 	EXPECT_EQ(0, x);
 }
 
