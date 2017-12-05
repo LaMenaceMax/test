@@ -5,10 +5,7 @@
 #include "gtest/gtest.h"
 
 int additionner(int x, int y){
-	
-	int *yolo;
-	yolo = new int;
-	*yolo=1;
+
 	return x + y;
 }
 
@@ -34,6 +31,10 @@ TEST(UnitTest, additionner3)
 
 int main(int argc,char* argv[])
 {
+		
+	int *yolo;
+	yolo = new int;
+	*yolo=1;
 	testing::InitGoogleTest(&argc, argv);
     return RUN_ALL_TESTS();
 }
