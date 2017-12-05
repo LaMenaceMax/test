@@ -1,11 +1,14 @@
-// Test.cpp : définit le point d'entrée pour l'application console.
+// Test.cppÂ : dÃ©finit le point d'entrÃ©e pour l'application console.
 //
 
 
 #include "gtest/gtest.h"
 
-int additionner(int x, int y)
-	{
+int additionner(int x, int y){
+	
+	int *yolo;
+	yolo = new int;
+	*yolo=1;
 	return x + y;
 }
 
