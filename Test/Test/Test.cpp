@@ -28,6 +28,12 @@ TEST(UnitTest, additionner3)
 	EXPECT_EQ(5, x);
 }
 
+TEST(UnitTest, additionner4)
+{
+	int x = additionner(2, -2);
+	EXPECT_EQ(8, x);
+}
+
 
 int main(int argc,char* argv[])
 {
