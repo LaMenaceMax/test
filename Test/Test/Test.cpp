@@ -6,7 +6,7 @@
 
 int additionner(int x, int y)
 {
-	return x + y
+	return x + y;
 }
 
 
@@ -38,9 +38,6 @@ TEST(UnitTest, additionner4)
 int main(int argc,char* argv[])
 {
 		
-	int *yolo;
-	yolo = new int;
-	*yolo=1;
 	testing::InitGoogleTest(&argc, argv);
     return RUN_ALL_TESTS();
 }
