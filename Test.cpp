@@ -1,18 +1,33 @@
+// Test.cpp : définit le point d'entrée pour l'application console.
+//
+
+
 #include "gtest/gtest.h"
-#include "yup"
 
 int additionner(int x, int y)
-{
+	{
 	return x + y;
-	
-	
 }
+
 
 TEST(UnitTest, additionner1)
 {
-	int x = additionner(2, -2)
+	int x = additionner(2, -2);
 	EXPECT_EQ(0, x);
 }
+
+TEST(UnitTest, additionner2)
+{
+	int x = additionner(2, -2);
+	EXPECT_EQ(0, x);
+}
+
+TEST(UnitTest, additionner3)
+{
+	int x = additionner(2, -2);
+	EXPECT_EQ(0, x);
+}
+
 
 int main(int argc,char* argv[])
 {
