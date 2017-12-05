@@ -25,7 +25,7 @@ TEST(UnitTest, additionner2)
 TEST(UnitTest, additionner3)
 {
 	int x = additionner(2, -2);
-	EXPECT_EQ(0, x);
+	EXPECT_EQ(5, x);
 }
 
 
