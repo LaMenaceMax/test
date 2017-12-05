@@ -25,14 +25,9 @@ TEST(UnitTest, additionner2)
 TEST(UnitTest, additionner3)
 {
 	int x = additionner(2, -2);
-	EXPECT_EQ(5, x);
+	EXPECT_EQ(0, x);
 }
 
-TEST(UnitTest, additionner4)
-{
-	int x = additionner(2, -2);
-	EXPECT_EQ(8, x);
-}
 
 
 int main(int argc,char* argv[])
