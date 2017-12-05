@@ -4,9 +4,9 @@
 
 #include "gtest/gtest.h"
 
-int additionner(int x, int y){
-
-	return x + y
+int additionner(int x, int y)
+{
+	return x + y;
 }
 
 
